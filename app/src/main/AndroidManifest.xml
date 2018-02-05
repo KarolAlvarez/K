@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.k11.k">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".View.VerEncargos"
+            android:label="Lista de encargos"
+
+            />
+        <activity
+            android:name=".View.AgregarEncargo"
+            android:label="Agregar un nuevo encargo" />
+        <activity
+            android:name=".View.CrearUsuario"
+            android:label="Crear usuario" />
+        <activity
+            android:name=".View.ModificarCosto"
+            android:label="Modificar costo"
+            android:theme="@style/Theme.AppCompat.DayNight.Dialog" />
+        <activity android:name=".View.ModificarCantidad"
+            android:label="Modificar cantidad"
+            android:theme="@style/Theme.AppCompat.DayNight.Dialog" ></activity>
+    </application>
+
+</manifest>

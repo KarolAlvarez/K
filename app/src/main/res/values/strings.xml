@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Encargo</string>
+    <string name="guardar_encargo">Guardar Encargo</string>
+    <string name="celular_cliente">Celular cliente</string>
+    <string name="nombre_cliente">Nombre cliente</string>
+    <string name="descripci_n_del_encargo">Descripción del Encargo</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="nombre_del_encargo">Nombre del encargo</string>
+    <string name="cel">Cel:</string>
+    <string name="guardar_cantidad">Guardar cantidad</string>
+    <string name="nombre_de_usuario">Nombre de usuario</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="registrar_usuario">Registrar Usuario</string>
+    <string name="ingresar">ingresar</string>
+    <string name="crear_usuario">crear usuario</string>
+</resources>
